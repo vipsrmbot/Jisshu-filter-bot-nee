@@ -241,7 +241,7 @@ async def admin_commands(client, query):
         chat_id=query.message.chat.id,
         message_id=query.message.id,
         media=InputMediaAnimation(
-            media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Welcome_video_20240921_184741_0001.gif",
+            media="",
             caption=script.ADMIN_CMD_TXT,
             parse_mode=enums.ParseMode.HTML,
         ),
