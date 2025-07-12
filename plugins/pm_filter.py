@@ -1517,7 +1517,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         )
                     ],
                     [
-                        InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", callback_data="source"),
+                        InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", callback_data="MRK2xBots"),
                         InlineKeyboardButton(
                             "ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs", callback_data="mydevelopers"
                         ),
@@ -1533,11 +1533,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             show_alert=True,
         )
 
-    elif query.data == "source":
+    elif query.data == "MRK2xBots":
         buttons = [
             [
                 InlineKeyboardButton(
-                    "ʀᴇᴘᴏ", url="https://github.com/JisshuTG/Jisshu-filter-bot"
+                    "ʀᴇᴘᴏ", url="https://t.me/MRK2xBots"
                 )
             ],
             [
@@ -1582,7 +1582,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             chat_id=query.message.chat.id,
             message_id=query.message.id,
             media=InputMediaAnimation(
-                media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Group_20240921_202540_0001.gif",
+                media="",
                 caption=script.GROUP_TEXT.format(temp.B_LINK),
                 parse_mode=enums.ParseMode.HTML,
             ),
