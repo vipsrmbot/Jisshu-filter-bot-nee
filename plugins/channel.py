@@ -50,7 +50,7 @@ UPDATE_CAPTION = """<b>𝖭𝖤𝖶 {} 𝖠𝖣𝖣𝖤𝖣 ✅</b>
 
 {}
 
-<blockquote>〽️ Powered by @Jisshu_bots</b></blockquote>"""
+<blockquote>〽️ Powered by @MRk2xBots</b></blockquote>"""
 
 QUALITY_CAPTION = """📦 {} : {}\n"""
 
@@ -124,7 +124,7 @@ async def queue_movie_file(bot, media):
         print(f"Error in queue_movie_file: {e}")
         if file_name in processing_movies:
             processing_movies.remove(file_name)
-        await bot.send_message(LOG_CHANNEL, f"Failed to send movie update. Error - {e}'\n\n<blockquote>If you don’t understand this error, you can ask in our support group: @Jisshu_support.</blockquote>")
+        await bot.send_message(LOG_CHANNEL, f"Failed to send movie update. Error - {e}'\n\n<blockquote>If you don’t understand this error, you can ask in our support group: @MRk2xBots.</blockquote>")
 
 async def send_movie_update(bot, file_name, files):
     try:
@@ -209,7 +209,7 @@ async def send_movie_update(bot, file_name, files):
 
     except Exception as e:
         print('Failed to send movie update. Error - ', e)
-        await bot.send_message(LOG_CHANNEL, f"Failed to send movie update. Error - {e}'\n\n<blockquote>If you don’t understand this error, you can ask in our support group: @Jisshu_support.</blockquote>")
+        await bot.send_message(LOG_CHANNEL, f"Failed to send movie update. Error - {e}'\n\n<blockquote>If you don’t understand this error, you can ask in our support group: @MRk3xBots.</blockquote>")
 
 
 async def get_imdb(file_name):
