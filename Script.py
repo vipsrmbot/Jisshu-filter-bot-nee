@@ -117,7 +117,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """```<a>{file_name}</b>```
+    FILE_CAPTION = """```<b>{file_name}</b>```
 <b>𝙹𝚘𝚒𝚗☞: <a>[@MRk2xBots]</b>"""
 
     ALRT_TXT = """ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ sᴇᴀʀᴄʜɪɴɢ !?"""
