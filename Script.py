@@ -118,8 +118,7 @@ User - {}"""
 """
 
     FILE_CAPTION = """
-```html
-<b>{file_name}</b>
+```<b>{file_name}</b>
 ```
 <b>𝙹𝚘𝚒𝚗☞: <a>[@MRk2xBots]</b>"""
 
