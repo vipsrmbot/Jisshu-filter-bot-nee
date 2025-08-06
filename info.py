@@ -18,44 +18,44 @@ def is_enabled(value, default):
 SESSION = environ.get("SESSION", "Media_search")
 API_ID = int(environ.get("API_ID", "15384691"))
 API_HASH = environ.get("API_HASH", "fb0609a29625c38136c7166631ada24d")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8082216957:AAGn1WLysYUZBDNnMYw1JlUPsRtlyZlMNOQ")
 PORT = environ.get("PORT", "8082")
 
 # Owners
 ADMINS = [
     int(admin) if id_pattern.search(admin) else admin
-    for admin in environ.get("ADMINS", "7510866319").split()
+    for admin in environ.get("ADMINS", "7848558117 2100949311  7936698688 6471179773 6397721066").split()
 ]
 OWNER_USERNAME = environ.get(
-    "OWNER_USERNAME", "MRk2x"
+    "OWNER_USERNAME", "MAHARANAUTSAV7"
 )  # without @ or https://t.me/
-USERNAME = environ.get("USERNAME", "MRK2x")  # ADMIN USERNAME
+USERNAME = environ.get("USERNAME", "DAnnydec0sta")  # ADMIN USERNAME
 
 # Database Channel
 CHANNELS = [
     int(ch) if id_pattern.search(ch) else ch
-    for ch in environ.get("CHANNELS", "-1002859176889").split()
+    for ch in environ.get("CHANNELS", "-1002854492625").split()
 ]
 
 # ForceSub Channel & Log Channels
-AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002625147245"))
-AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1002500557051"))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002834976377"))
-LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002834976377"))
-LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002834976377"))
+AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002534837640 -1002756285032 -1002891791960 -1002296021391 -1002812346345"))
+AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1002605411935 -1002703492970 -1002776816845"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002885892588"))
+LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002885892588"))
+LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002885892588"))
 
 # MongoDB
-DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://MRK2xBots:MRK2xBots@cluster0.tynusb0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://utsavdto1234:UFFtrBmjpHtyds5O@cluster0.8zvvtjs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
 
 # Files index database url
-FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://MRK2xBots:MRK2xBots@cluster0.tynusb0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-COLLECTION_NAME = environ.get("COLLECTION_NAME", "jisshu")
+FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://utsavdto1234:UFFtrBmjpHtyds5O@cluster0.8zvvtjs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+COLLECTION_NAME = environ.get("COLLECTION_NAME", "MAHARANA")
 
 # Other Channel's
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002772634822"))
-DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "-1002776294225"))
-request_channel = environ.get("REQUEST_CHANNEL", "-1002641124205")
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002560505963"))
+DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "-1002585747671"))
+request_channel = environ.get("REQUEST_CHANNEL", "-1002585747671")
 REQUEST_CHANNEL = (
     int(request_channel)
     if request_channel and id_pattern.search(request_channel)
@@ -64,28 +64,28 @@ REQUEST_CHANNEL = (
 MOVIE_UPDATE_CHANNEL = int(environ.get("MOVIE_UPDATE_CHANNEL", "-1002500557051"))
 
 # Added Link Here Not Id
-SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/MRk2x_Support")
-MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/srm_request_movie")
+SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/MAHARANAHELP")
+MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/mAHARANArEQUESTS")
 
 # Verification
 IS_VERIFY = is_enabled("IS_VERIFY", False)
 # ---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/MaharanaVerification")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/MaharanaVerification")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/MaharanaVerification")
 VERIFY_IMG = environ.get(
     "VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg"
 )
-SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "omegalinks.in")
+SHORTENER_API = environ.get("SHORTENER_API", "e12dd9cfec34a15455663daefd65d6e16c893b7c")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "linkshortify.com")
 SHORTENER_API2 = environ.get(
-    "SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799"
+    "SHORTENER_API2", "e12dd9cfec34a15455663daefd65d6e16c893b7c"
 )
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "omegalinks.in")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "linkshortify.com")
 SHORTENER_API3 = environ.get(
-    "SHORTENER_API3", "3097623f852197a9ce40d1212aaa8bbf2803e799"
+    "SHORTENER_API3", "e12dd9cfec34a15455663daefd65d6e16c893b7c"
 )
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "omegalinks.in")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "linkshortify.com")
 TWO_VERIFY_GAP = int(environ.get("TWO_VERIFY_GAP", "14400"))
 THREE_VERIFY_GAP = int(environ.get("THREE_VERIFY_GAP", "14400"))
 
